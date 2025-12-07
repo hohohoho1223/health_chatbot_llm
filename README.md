@@ -36,6 +36,11 @@
 
 - `feature/poc-llm-rag` 브랜치로 작업
 
+## 커밋 전략
+
+- 참고 링크: [Stephen Parish Commit Message Guide](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)
+
+
 ## PoC 이후 확장 방향
 
 - vLLM 기반 Qwen 가속 및 GPU(L4) 환경에서 구현
