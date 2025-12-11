@@ -19,5 +19,5 @@ def add_document(req: AddDocRequest):
 
 @app.post("/query")
 def query(req: QueryRequest):
-    answer = rag_service.answer(req.query)
+    answer = rag_service.answer_query(req.query)
     return {"answer": answer}
