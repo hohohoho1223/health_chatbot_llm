@@ -1,4 +1,4 @@
-from sentece_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
 import os
 
