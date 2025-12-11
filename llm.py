@@ -14,7 +14,7 @@ class LLMService:
         self.model = AutoModelForCausalLM.from_pretrained(
             Meodel_NAME,
             torch_dtype=torch.float32,
-            device_map="CPU"
+            device_map="cpu"
         )
 
     def generate(self, prompt: str, max_new_tokens: int = 256) -> str: #프롬프트를 받아 답변 생성
