@@ -10,18 +10,21 @@
 
 ### 1. LLM 자체 모델 로딩
 
-- [ ] HugginFace 모델 다운로드
-- [ ] CPU 기반 실행 테스트(app.py)
-- [ ] 간단한 프롬프트 및 응답 테스트
+- [x] HugginFace 모델 다운로드
+- [x] CPU 기반 실행 테스트(app.py)
+- [x] 간단한 프롬프트 및 응답 테스트
 
 ### 2. 임베딩 기능 구현
 
-- [ ] Sentence-Transformer 기반 임베딩 구현
-- [ ] FAISS 인메모리 VectorStore 구현
+- [x] Sentence-Transformer 기반 임베딩 구현
+- [x] FAISS 인메모리 VectorStore 구현
 
 ### 3. RAG 기능 구현
 
-- [ ] 검색 기반 응답 생성 구현
+- [x] 검색 기반 응답 생성 구현
+
+## 응답 결과
+![모델 응답 확인](<[PoC] Qwen2.5-0.5B 응답 결과.png>)
 
 ## 기술 스택(PoC 기준)
 
