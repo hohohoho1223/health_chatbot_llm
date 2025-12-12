@@ -25,4 +25,4 @@ class LLMService:
             do_sample=True,
             temperature=0.7
         ) 
-        return self.tokenizer.decoede(outputs[0], skip_special_tokens=True)
+        return self.tokenizer.decode(outputs[0], skip_special_tokens=True)
