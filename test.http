@@ -1,0 +1,27 @@
+# API 테스트용 HTTP 요청 파일
+# 서버가 로컬에서 실행 중인지 확인
+GET http://localhost:8000/
+
+### 문서 추가 1
+POST http://localhost:8000/add
+Content-Type: application/json
+
+{
+  "text": "사과는 비타민C가 풍부한 과일이다."
+}
+
+### 문서 추가 2
+POST http://localhost:8000/add
+Content-Type: application/json
+
+{
+  "text": "바나나는 칼륨이 많고 운동 후 회복에 도움이 된다."
+}
+
+### 질의 요청
+POST http://localhost:8000/query
+Content-Type: application/json
+
+{
+  "query": "사과의 영양소는?"
+}
