@@ -19,7 +19,8 @@ class RAGService:
 
         context = "\n".join(relevant_docs)
         prompt = f"""
-        너는 유능한 건강 관련 AI 어시스턴트야. 다음은 질문에 답하는데 도움이 되는 문서들이야. 이 문서들을 참고해서 질문에 답해줘.
+        너는 유능한 건강 관련 AI 어시스턴트야. 다음은 질문에 답하는데 도움이 되는 문서들이야. 이 문서들을 참고해서 질문에 한문장으로 답해줘.
+        
         Context:
         {context}
 
