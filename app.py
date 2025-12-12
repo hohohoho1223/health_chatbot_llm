@@ -12,6 +12,10 @@ class AddDocRequest(BaseModel):
 class QueryRequest(BaseModel):
     query: str
 
+@app.get("/")
+def root():
+    return {"message": "RAG PoC Chatbot이 실행중 입니다!"}
+
 @app.post("/add")
 def add_document(req: AddDocRequest):
     rag_service.add_document(req.text)
