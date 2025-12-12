@@ -25,7 +25,7 @@
 
 ## 응답 결과
 
-![Qwen 2.5 0.5B RAG 응답 결과](poc_qwen_2_5_0_5b_rag_response.png)
+![Qwen 2.5 0.5B RAG 응답 결과](images/poc_qwen_2_5_0_5b_rag_response.png)
 
 ## 기술 스택(PoC 기준)
 
